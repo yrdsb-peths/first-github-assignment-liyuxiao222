@@ -28,4 +28,7 @@ public class Rectangle
     {
         return width == other.getWidth() && height == other.getHeight();
     }
+    
+    public double getArea(){
+        return (double)width * height;
 }
