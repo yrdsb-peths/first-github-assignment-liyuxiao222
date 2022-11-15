@@ -31,4 +31,8 @@ public class Rectangle
     
     public double getArea(){
         return (double)width * height;
+
+    public int getPerimeter(){
+        return (2*width + 2*height);
+    }
 }
