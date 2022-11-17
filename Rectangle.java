@@ -35,4 +35,8 @@ public class Rectangle
     public int getPerimeter(){
         return (2*width + 2*height);
     }
+
+    public int setWidth(int width){
+        this.width = width
+    }
 }
