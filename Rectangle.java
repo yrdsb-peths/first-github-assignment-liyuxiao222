@@ -1,10 +1,12 @@
-public class Rectangle
+public class Rectangle extends Shape
 {
     private int width;
     private int height;
+    private String name;
     
-    public Rectangle(int theWidth, int theHeight)
+    public Rectangle(String theName, int theWidth, int theHeight)
     {
+        super(theName);
         width = theWidth;
         height = theHeight;
     }
