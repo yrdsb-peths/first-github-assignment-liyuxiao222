@@ -5,4 +5,8 @@ public class Shape
     public Shape(String theName){
         name = theName;
     }
+
+    private void setName(String theName){
+        name = theName;
+    }
 }
